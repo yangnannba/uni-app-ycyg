@@ -1,0 +1,1 @@
+page{background:#f5f4f4;width:100%;height:100%}.radio-wrap{margin-top:20rpx}.radio-wrap .label{background-color:#fff;padding:20rpx 20rpx;display:block;font-size:34rpx}.radio-wrap .label:nth-child(1){border-bottom:2rpx solid #f5f4f4}.submit{margin:20rpx auto;width:96%}

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "超英预告",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "xin": "/components/xiin"
+  }
+}

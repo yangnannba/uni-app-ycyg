@@ -1,0 +1,1 @@
+<view><view class="touxiang"><image src="{{imgface}}" mode="aspectFill"></image></view><view class="tishi">*请上传长宽等比的图片*</view><view class="bottom"><view data-event-opts="{{[['tap',[['cxxz',['$event']]]]]}}" bindtap="__e">从新选择</view><view data-event-opts="{{[['tap',[['toshangchuan',['$event']]]]]}}" bindtap="__e">上传图片</view></view></view>

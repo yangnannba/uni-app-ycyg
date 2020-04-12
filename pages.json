@@ -1,0 +1,135 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "超英预告",
+			"enablePullDownRefresh": true
+		}
+	},
+        {
+            "path" : "pages/me/me",
+            "style" : {
+				"app-plus":{
+					"titleNView":false
+				},
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "我的",
+				"navigationBarBackgroundColor": "#e6a23d"			
+				
+			}
+        }
+	    ,{
+            "path" : "pages/search/search",
+            "style" : {
+				"navigationBarTitleText": "搜索预告片",
+				"enablePullDownRefresh": true
+			}
+        }
+        ,
+		{
+			"path" : "pages/details/details",
+			"style" : {
+            	"app-plus":{	
+					"titleNView": {
+						"type": "transparent",//透明渐变导航栏 App-nvue 2.4.4+ 支持
+						"backgroundColor":"#000",
+						"titleColor":"#fff",
+						"buttons": [ //原生标题栏按钮配置,
+							{
+								
+								"fontSize": "16px",
+								"type": "share"
+							}
+						]
+					}
+				}
+				
+			}
+		},       
+        {
+            "path" : "pages/showimg/showimg",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" : {
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "登录",
+				"navigationBarBackgroundColor": "#e6a23d",
+				"backgroundColor": "#F8F8F8"				
+			}
+        }
+        ,{
+            "path" : "pages/meinfo/meinfo",
+            "style" : {
+			    "navigationBarTextStyle": "white",
+				"navigationBarTitleText": "我的账户",
+				"navigationBarBackgroundColor": "#e6a23d"			
+				
+				
+			}
+        },
+		{
+		    "path" : "pages/meface/meface",
+		    "style" : {
+					"navigationBarTextStyle": "white",
+					"navigationBarTitleText": "上传头像",
+					"navigationBarBackgroundColor": "#000"				
+			}
+		}
+
+        ,{
+            "path" : "pages/gainame/gainame",
+            "style" : {
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "修改昵称",
+				"navigationBarBackgroundColor": "#e6a23d"					
+			}
+        }
+        ,{
+            "path" : "pages/tobirthday/tobirthday",
+            "style" : {
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "修改生日",
+				"navigationBarBackgroundColor": "#e6a23d"	
+			}
+        }
+        ,{
+            "path" : "pages/tosex/tosex",
+            "style" : {
+				"navigationBarTextStyle": "white",
+				"navigationBarTitleText": "修改性别",
+				"navigationBarBackgroundColor": "#e6a23d"	
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "超英预告",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+	    "color": "#bfbfbf",
+	    "selectedColor": "#515151",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+	        "iconPath": "static/tabBarIco/index.png",
+	        "selectedIconPath": "static/tabBarIco/index_sel.png",
+	        "text": "首页"
+	    }, {
+	        "pagePath": "pages/search/search",
+	        "iconPath": "static/tabBarIco/search.png",
+	        "selectedIconPath": "static/tabBarIco/search_sel.png",
+	        "text": "搜索"
+	    }, {
+	        "pagePath": "pages/me/me",
+	        "iconPath": "static/tabBarIco/me.png",
+	        "selectedIconPath": "static/tabBarIco/me_sel.png",
+	        "text": "我的"
+	    }]
+	}
+}
